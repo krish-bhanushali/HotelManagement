@@ -164,18 +164,17 @@ public class HMMainUI extends javax.swing.JFrame {
             .addGroup(pnlCard5Layout.createSequentialGroup()
                 .addGroup(pnlCard5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlCard5Layout.createSequentialGroup()
-                        .addGroup(pnlCard5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(pnlCard5Layout.createSequentialGroup()
-                                .addGap(275, 275, 275)
-                                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(pnlCard5Layout.createSequentialGroup()
-                                .addGap(222, 222, 222)
-                                .addComponent(jLabel18)))
+                        .addGap(222, 222, 222)
+                        .addComponent(jLabel18)
                         .addGap(0, 364, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCard5Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jLabel19)))
                 .addContainerGap())
+            .addGroup(pnlCard5Layout.createSequentialGroup()
+                .addGap(275, 275, 275)
+                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlCard5Layout.setVerticalGroup(
             pnlCard5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -476,7 +475,7 @@ public class HMMainUI extends javax.swing.JFrame {
             }
         });
     }
-
+   
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
